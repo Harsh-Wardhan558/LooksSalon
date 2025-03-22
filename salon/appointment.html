@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Book an Appointment</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header>
+        <nav>
+            <ul>
+                <li><a href="index.html">Home</a></li>
+                <li><a href="about.html">About Us</a></li>
+                <li><a href="appointment.html">Book Appointment</a></li>
+                <li><a href="contact.html">Contact Us</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <!-- Hero Section -->
+    <section class="appointment-hero">
+        <img src="https://media.licdn.com/dms/image/v2/D4D12AQFd_k5TcDaQag/article-cover_image-shrink_720_1280/article-cover_image-shrink_720_1280/0/1715593385577?e=2147483647&v=beta&t=k8nDgZiFPUiKSIpO9DLX7We0cjvLeIHCbGEOj_fuOJg" alt="Salon Appointment Banner">
+        <div class="overlay">
+            <h1>Book an Appointment</h1>
+            <p>Let our experts give you the perfect look!</p>
+        </div>
+    </section>
+
+    <!-- Booking Information -->
+    <section class="appointment-info">
+        <h2>Book An Appointment Online</h2>
+        <p>Our online booking service operates between <b>10:00 AM and 6:00 PM</b>.</p>
+        <p>During opening hours, we'll call you back within 1 hour to confirm your appointment. Outside opening hours, we will call you after 10:00 AM.</p>
+        <p><i>Your data is safe with us! We will only use your details to process your booking.</i></p>
+    </section>
+
+    <!-- Appointment Form -->
+    <section class="appointment-form">
+        <h2>Fill in the Details</h2>
+        <form>
+            <label for="name">Name*</label>
+            <input type="text" id="name" required placeholder="Enter your full name">
+
+            <label for="contact">Contact*</label>
+            <input type="tel" id="contact" required placeholder="Enter your contact number">
+
+            <label for="email">Email ID</label>
+            <input type="email" id="email" placeholder="Enter your email">
+
+            <label for="city">City*</label>
+            <input type="text" id="city" required placeholder="Enter your city">
+
+            <label for="location">Location*</label>
+            <input type="text" id="location" required placeholder="Enter your area">
+
+            <label for="gender">Gender*</label>
+            <select id="gender" required>
+                <option value="" disabled selected>Select your gender</option>
+                <option value="male">Male</option>
+                <option value="female">Female</option>
+                <option value="other">Other</option>
+            </select>
+
+            <label for="service">Service Type*</label>
+            <select id="service" required>
+                <option value="" disabled selected>Select a service</option>
+                <option value="haircut">Haircut & Styling</option>
+                <option value="facial">Facials & Skin Care</option>
+                <option value="nails">Manicure & Pedicure</option>
+                <option value="spa">Spa & Relaxation</option>
+            </select>
+
+            <label for="date">Preferred Date*</label>
+            <input type="date" id="date" required>
+
+            <label for="time">Preferred Time*</label>
+            <select id="time" required>
+                <option value="" disabled selected>Select a time slot</option>
+                <option value="10am">10:00 AM</option>
+                <option value="12pm">12:00 PM</option>
+                <option value="2pm">2:00 PM</option>
+                <option value="4pm">4:00 PM</option>
+                <option value="6pm">6:00 PM</option>
+            </select>
+
+            <button type="submit" class="btn">Book Appointment</button>
+        </form>
+
+        <div class="or">
+            <p>OR</p>
+        </div>
+
+        <p class="call-now">Call us @ <b>8342932374</b></p>
+    </section>
+
+    <!-- Salon Details -->
+    <section class="salon-details">
+        <h2>Book an Appointment at Looks Salon</h2>
+        <p>Looks Salon, a premium name in the salon industry, ensures that every man and woman walks out with a brand-new look.</p>
+        <p>With <b>95+ salons</b> in India and abroad, we have been a trusted hair and beauty treatment partner for thousands of customers.</p>
+        <p>Planning a makeover for a party, festival, or a special event? Leave it to us and enjoy a stress-free transformation!</p>
+    </section>
+
+    <!-- Footer -->
+    <footer>
+        <p>&copy; 2025 Looks Salon. All Rights Reserved.</p>
+        <p>Contact Us: 8342932374 | info@lookssalon.com</p>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
